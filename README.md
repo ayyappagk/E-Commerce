@@ -1,5 +1,6 @@
 # E-Commerce
-E-commerce website with Add to cart functionality using HTML, CSS and JavaScript.
+E-commerce web application with Add to cart functionality using HTML, CSS and JavaScript.
+fetching and displaying products from API:https://fakestoreapi.com/products
 
 
 
