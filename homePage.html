@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/homePage.css">
+
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <div>
+                <h2 class="commerce"><a href="./homePage.html">Ecommerce</a></h2>
+            </div>
+            <div class="container2">
+                <h3><a href="#">Home</a></h3>
+                <h3><a href="./pages/productpage.html">Products</a></h3>
+                <h3><a href="./pages/aboutpage.html">About</a></h3>
+                <h3><a href="./pages/contactus.html">Contact</a></h3>
+            </div>
+            <div>
+                <i class="fw-semibold fa-solid fa-arrow-right-to-bracket login"><a class="i2" href="./pages/login.html"> Login</a></i>
+                <i class="fa-solid fa-user-plus register"><a class="i2" href="./pages/register.html"> Register</a></i>
+                <i class="fa-sharp fa-solid fa-cart-shopping cart"><a class="cart-count" href="./pages/cart.html" id="cart-count"> Cart(0)</a></i>
+            </div>
+        </div>
+    </header>
+    <div class="image-div">
+        <img src="./assets/images/main.png.jpg" alt="main page">
+    </div>
+    <div>
+        <p class="season">New Season Arrivals</p>
+        <pre class="pre">This is a wider card with supporting text below as a natural lead-in to additional content.This content is a
+little bit longer</pre>
+    </div>
+    <p class="latest">Latest Products</p>
+    <div class="line">
+        <hr>
+    </div><br><br><br>
+    <div class="container3">
+        <button class="btn btn-outline-dark" onclick="filteritems('all')" >All </button>
+        <button class="btn btn-outline-dark" onclick="filteritems('men-s-clothing')">Men's Clothing</button>
+        <button class="btn btn-outline-dark" onclick="filteritems('women-s-clothing')">Women's Clothing</button>
+        <button class="btn btn-outline-dark" onclick="filteritems('jewelery')">Jewelery</button>
+        <button class="btn btn-outline-dark" onclick="filteritems('electronics')">Electronics</button>
+    </div><br><br><br>
+    <div id="container"></div>
+    <br>
+    <br>
+    <footer class="end">
+    <span>Made with <i class="fa-solid fa-heart heart"></i> by <u>Ayyappa G</u></span>
+    </footer><br><br>
+    <script src="./js/homepage.js"></script>
+</body>
+</html>
